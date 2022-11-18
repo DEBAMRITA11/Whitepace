@@ -179,3 +179,23 @@ body {
             margin-top: 60px;
         }
     }
+    /* extention-area css*/ 
+        .extention-area {
+            padding: 140px 0;
+            background: #043873;
+        }
+        .extention-area .theme-text h3 {
+            color:#ffffff;
+            
+        }
+        .extention-area .theme-text p {
+            color:#ffffff;
+        }
+        @media (max-width: 991px) {
+        .extention-area .theme-button {
+            margin-bottom: 50px;
+        }   
+        .extention-area {
+            padding: 80px 0;
+        }
+        }
