@@ -477,6 +477,30 @@ body {
             font-weight: 700;
             margin-bottom: 15px;
         }
+        .footer-bottom{
+            border-top: 1px solid #4F9CF9;
+            padding: 32px 0;
+        }
+        .footer-language a {
+            text-decoration: none;
+            color:#Ffffff;
+        }
+        .footer-language .dropdown-menu a {
+            color:#212529;
+            
+        }
+        .footer-language i {
+            margin-right: 10px;
+        }
+        .footer-social{
+            text-align: right;
+        }
+        .footer-social a {
+            text-decoration: none;
+            display: inline-block;
+            color: #Ffffff;
+            margin-left: 32px;
+        }
         @media (max-width: 991px) {
             .footer-top{
                 text-align: center;
@@ -490,4 +514,22 @@ body {
             .footer-contact {
                 margin-top: 40px;
             }
+            .footer-bottom{
+                border-top: none;
+            }
+            .footer-language {
+                text-align: center;
+            }
+            .footer-copyright {
+               padding: 32px 0;
+            }
+            .footer-social{
+               text-align: center;
+               border-top: 1px solid #4F9CF9;
+               padding-top: 32px;
+            }
+            .footer-social a {
+                margin-left: 16px;
+            }
+            
         }
